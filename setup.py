@@ -10,6 +10,6 @@ setup(
     author_email='example@example.com',
     url='http://www.python.org/sigs/distutils-sig/',
     install_requires=[
-        'askbot', 'django-celery',
+        'askbot', 'django-celery', 'importlib', 'amqp'
     ],
 )
