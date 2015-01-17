@@ -10,7 +10,7 @@ import site
 ASKBOT_ROOT = os.path.abspath(os.path.dirname(askbot.__file__))
 site.addsitedir(os.path.join(ASKBOT_ROOT, 'deps'))
 
-DEBUG = False#set to True to enable debugging
+DEBUG = True#set to True to enable debugging
 TEMPLATE_DEBUG = False#keep false when debugging jinja2 templates
 INTERNAL_IPS = ('127.0.0.1',)
 ALLOWED_HOSTS = ['*',]#change this for better security on your site
@@ -331,4 +331,5 @@ JINJA2_EXTENSIONS = ('compressor.contrib.jinja2ext.CompressorExtension',)
 # fail spuriously in MySQL.
 SOUTH_TESTS_MIGRATE = False
 
+ASKBOT_SELF_TEST = True
 VERIFIER_EXPIRE_DAYS = 3
