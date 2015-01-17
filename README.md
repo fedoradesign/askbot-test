@@ -1,11 +1,10 @@
 #Askbot Redesign Effort
-#=======================
 
 This repo is where the source for the testing or staging instance of http://ask.fedoraproject.org/ is held.
 
 ###Setup
 
-After pulling this repository 
+After pulling this repository a few steps must be taken so the database is migrated and static files are generated
 
 
 
