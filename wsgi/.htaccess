@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^static/default(.+)$ /static/collected_static/default/$1 [L]
+RewriteRule ^static/admin(.+)$ /static/collected_static/admin/$1 [L]
+RewriteRule ^static/tiny_mce(.+)$ /static/collected_static/tiny_mce/$1 [L]
