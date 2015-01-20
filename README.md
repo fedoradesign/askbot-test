@@ -12,4 +12,5 @@ After pulling this repository a few steps must be taken so the database is migra
 
 * Suchakra Sharma ( IRC Nick: Suchakra )
 * Zachary Snyder  ( IRC Nick: Sadin )
+* Sarup Banskota  ( IRC Nick: Banas )
 
